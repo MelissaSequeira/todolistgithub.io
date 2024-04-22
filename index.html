@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ur_To_Do_List.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="title">Ur_To_Do_List.com</p>
+    <div class="add-item">
+        <input class="itemtext" type="text" placeholder="Add ur task">
+        <button class="add-btn" type="button" value="add" onclick=additeminbox()>Add Task</button>
+    </div>
+    <div class="added-item">
+        <ul id="taskList">
+            <table>
+                <tr>
+                  <th>Tasks</th>
+                  <th colspan="3">Actions</th>
+                </tr>
+            </table>
+        </ul>
+    </div>
+    
+    <script src="action.js"></script>
+</body>
+</html>
